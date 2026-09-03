@@ -55,6 +55,12 @@ print(noun)
 
 # Add the rest down here on your own!
 ```
+print(adjective)
+print(verb)
+print(name)
+print(number)
+print(plural_noun)
+print(adjective_2)
 
 ## 4. Formatting the Story with Formatted Strings
 
@@ -110,7 +116,7 @@ When both kinds of quotes are used, or when you don't want to use both kinds of 
 In Python our escape character is `\` and goes before a character that might cause problems. Our fixed code might actually look like this then:
 
 ```python main.py
-message = f"Today in computer science class, Mr. Forsyth taught us how to program a(n) {noun}. First, we clicked the {adjective} button, then the computer started {verb}. Suddenly, {name} accidentally created {number} {plural_noun}! Mr. Forsyth said, \"This is the most {adjective_2} bug I've ever seen.\""
+message = f"Today in computer science class, Mr. Forsyth taught us how to program a(n) {noun}. First, we clicked the {adjective} button, then the computer started {verb}. Suddenly, {name} accidentally created {number} {plural_noun}! Mr. Forsyth said, \"This is the most {adjective_2} bug I've ever seen.\""o
 ```
 
 ## 5. Output the Story
@@ -134,4 +140,3 @@ Create a second Mad Lib program using the same programming concepts from the wal
 * Use an **f-string** to insert the variables into the story.
 * Include **quoted dialogue** and use an **escape character** correctly within the story.
 * Display the completed story using `print()`.
-
